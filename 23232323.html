@@ -1,0 +1,143 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+
+    <title>Assignment Solution for Module 2</title>
+    <!--<link rel = "spreadsheet" type = "text/css" href = "C:\Users\Owner\Desktop\Projects\maybe_css.css">
+    -->
+    <style>
+        h1 {
+            text-align: center;
+          }
+          
+          .parentbox {
+            float: left;
+            overflow: hidden;
+            border-style: solid;
+            font: large;
+            font-size: 100%;
+            padding: 1%;
+            height: 51%;
+            width: 29%;
+            margin: .5%;
+            background-color: grey;
+          }
+          
+          .childbox {
+            position: relative;
+            text-align: center;
+            font-weight: bolder;
+            left: 74%;
+            top: -4.5%;
+            width: 29%;
+            padding: 0px;
+            margin: 0px;
+            font-size: 175%;
+            border-width: 2px;
+            border-style: solid;
+            background-color: pink;
+          
+          }
+
+          #beef {
+              background-color: red;
+              color: white;
+              border-color: black;
+          }
+          
+          #sushi {
+              background-color: yellow;
+              color: black;
+          }
+
+/*****************SMALL DEVICES ONLY*****************/
+@media (min-width: 0px) and (max-width: 767px){
+    .parentbox {
+        width: 80%;
+        height: 40%;
+        padding: 5%;
+        margin-left: 5%;
+    }
+
+    .childbox {
+        top: -5.5%;
+        width: 60%;
+        left: 50%;
+    }
+}
+
+/*****************MEDIUM DEVICES ONLY*****************/
+@media (min-width: 768px) and (max-width: 991px){
+            .parentbox {
+               overflow: scroll;
+               font-size: 130%;
+               padding: 2%;
+               height: 25%;
+               margin: 7%;
+               margin-top: 1%;   
+               margin-bottom: 2%;
+               width: 35%;
+            }
+            
+            .childbox {
+               width: 50%;
+               top: -10%;
+               left: 55%;
+            }
+
+            
+            #beefbox {
+
+               position: absolute;
+               float: right;
+               right: 0%;
+               height: 24.5%;
+               width: 35%;
+            }
+            
+            #sushibox {
+               width: 82%;
+            }
+          }
+            
+
+
+
+
+
+        
+        </style>
+    </head>
+
+<body>
+    
+    <h1>Our Menu</h1>
+
+    <p>
+
+        <div class="parentbox" id = "chickenbox">
+        <h2 class="childbox">Chicken</h2>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </p>
+
+    <p>
+
+        <div class="parentbox" id = "beefbox">
+        <h2 class="childbox" id = 'beef'>Beef</h2>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </p>
+
+    <p>
+
+        <div class="parentbox" id = "sushibox">
+        <h2 class="childbox" id = "sushi">Sushi</h2>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </p>
+</body>
+
+</html>
